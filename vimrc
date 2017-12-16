@@ -12,10 +12,6 @@ set wildmenu
 set smartindent
 set directory=~/,. 
 set clipboard=unnamed
-“set foldenable
-“set foldmethod=indent
-“set foldlevel=1
-“set foldcolumn=3
 set encoding=utf-8
 set enc=utf-8
 syntax on
