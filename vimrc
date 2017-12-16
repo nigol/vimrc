@@ -73,37 +73,6 @@ map ,ca $a,<Esc>:s/,/./g<CR>!1}dc<CR>
 " prikaz na upravu souboru telefonu pro Hanku
 map ,tele d4f;f;d6f;dWi;<Esc>$xj^
 
-" Mapovani pro ceske znaky
-imap aaa á
-imap ccc č
-imap ddd ď
-imap eee é
-imap eef ě
-imap iii í
-imap nnn ň
-imap ooo ó
-imap rrr ř
-imap sss š
-imap ttt ť
-imap uuu ú
-imap uuv ů
-imap yyy ý
-imap zzz ž
-imap AAA Á
-imap CCC Č
-imap DDD Ď
-imap EEE É
-imap EEF Ě
-imap III Í
-imap NNN Ň
-imap OOO Ó
-imap RRR Ř
-imap TTT Ť
-imap UUU Ú
-imap UUV Ů
-imap YYY Ý
-imap ZZZ Ž
-
 " C-like if
 imap ,if if () {<CR>}<Esc>kf(a
 " C-like if-else
