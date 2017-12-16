@@ -12,17 +12,17 @@ set wildmenu
 set smartindent
 set directory=~/,. 
 set clipboard=unnamed
-set foldenable
-set foldmethod=indent
-set foldlevel=1
-set foldcolumn=3
+“set foldenable
+“set foldmethod=indent
+“set foldlevel=1
+“set foldcolumn=3
 set encoding=utf-8
 set enc=utf-8
 syntax on
 filetype on
 filetype indent on
 filetype plugin on
-"let g:netrw_browse_split=3
+let g:netrw_browse_split=3
 set wrapscan
 set ignorecase
 set ts=4
@@ -35,7 +35,7 @@ set notimeout
 "set spelllang=cs
 set guifont=Menlo:h15
 colorscheme darkblue
-"set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 "set laststatus=2
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
