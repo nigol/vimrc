@@ -22,6 +22,7 @@ syntax on
 filetype on
 filetype indent on
 filetype plugin on
+execute pathogen#infect()
 let g:netrw_browse_split=3
 set wrapscan
 set ignorecase
