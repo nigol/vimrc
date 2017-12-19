@@ -32,7 +32,7 @@ set notimeout
 "set spelllang=cs
 set guifont=Menlo:h15
 colorscheme darkblue
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set statusline=%F%m%r%h%w\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
@@ -40,8 +40,6 @@ set tags=~/tags-edis
 
 " namapuje na ,q stisk Esc
 imap ,q <Esc>
-" namapuje na ,br novy radek v XHTML
-imap ,br <br>
 " namapuje na ,cm uzavreni HTML znacky
 imap ,cm </><Esc>2F<lywf>f/pF<i
 " namapuje na ,tg vytvoreni tagu ze slova
