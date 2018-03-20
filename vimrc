@@ -30,13 +30,9 @@ set backspace=indent,eol,start
 set number
 set notimeout
 "set spelllang=cs
-set guifont=Menlo:h15
-colorscheme darkblue
-set statusline=%F%m%r%h%w\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
-set tags=~/tags-edis
 
 " namapuje na ,q stisk Esc
 imap ,q <Esc>
