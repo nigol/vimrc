@@ -19,7 +19,8 @@ filetype on
 filetype indent on
 filetype plugin on
 execute pathogen#infect()
-let g:netrw_browse_split=3
+let g:netrw_browse_split=2
+let g:netrw_liststyle=3
 set wrapscan
 set ignorecase
 set ts=4
@@ -32,10 +33,11 @@ set notimeout
 "set spelllang=cs
 set laststatus=2
 set grepprg=grep\ -nH\ $*
-let g:tex_flavor='latex'
 
 " namapuje na ,q stisk Esc
 imap ,q <Esc>
+" map ,fi to display file list in vsplit
+map ,fi 20vs .
 " namapuje na ,cm uzavreni HTML znacky
 imap ,cm </><Esc>2F<lywf>f/pF<i
 " namapuje na ,tg vytvoreni tagu ze slova
@@ -48,33 +50,9 @@ map ¨ \
 map ř %
 " namapuje na ,rf reformat kodu
 map ,rf =}
-" namapuje na ,tex nastavení pro psaní textů
-map ,tex :set textwidth=66
-:set spell
-
-" namapuje na ,untex nastavení pro psaní zdrojáků
-map ,untex :set textwidth=0
-:set nospell
 
 " namapuje na ,ca kalkulacku pomoci dc
 map ,ca $a,<Esc>:s/,/./g<CR>!1}dc<CR>
 " prikaz na upravu souboru telefonu pro Hanku
 map ,tele d4f;f;d6f;dWi;<Esc>$xj^
 
-" C-like if
-imap ,if if () {<CR>}<Esc>kf(a
-" C-like if-else
-imap ,ife if () {<CR>} else {<CR>}<Esc>2kf(a
-" Atribut v SQL  HTML znacky
-" imap </>select
-imap ,sqa .``<Esc>3ha
-" PHP foreach
-imap ,fe foreach ($ as $value) {<CR>}<Esc>kf$a
-" PHP foreach key, value
-imap ,fek foreach ($ as $key => $value) {<CR>}<Esc>kf$a
-" PHP asociativni pole
-imap ,pas $[""]<Esc>F$a
-" Anonymni funkce
-imap ,fn function() {<CR>}<Esc>k$F(i
-" try--catch
-imap ,try try {<CR>} catch(e) {<CR>}<Esc>kk$a
