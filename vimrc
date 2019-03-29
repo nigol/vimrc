@@ -28,7 +28,7 @@ set sw=4
 set expandtab
 set cin
 set backspace=indent,eol,start
-set number
+set relativenumber
 set notimeout
 "set spelllang=cs
 set laststatus=2
@@ -36,8 +36,6 @@ set grepprg=grep\ -nH\ $*
 
 " namapuje na ,q stisk Esc
 imap ,q <Esc>
-" map ,fi to display file list in vsplit
-map ,fi 20vs .
 " namapuje na ,cm uzavreni HTML znacky
 imap ,cm </><Esc>2F<lywf>f/pF<i
 " namapuje na ,tg vytvoreni tagu ze slova
