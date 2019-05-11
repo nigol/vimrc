@@ -10,6 +10,7 @@ set hlsearch
 set nojoinspaces
 set wildmenu
 set smartindent
+let mapleader=","
 set directory=~/,. 
 set clipboard=unnamed
 set encoding=utf-8
@@ -31,7 +32,7 @@ set backspace=indent,eol,start
 set relativenumber
 set notimeout
 "set spelllang=cs
-set laststatus=2
+set laststatus=0
 set grepprg=grep\ -nH\ $*
 
 " namapuje na ,q stisk Esc
