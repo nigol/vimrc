@@ -15,7 +15,7 @@ set directory=~/,.
 set clipboard=unnamed
 set encoding=utf-8
 set enc=utf-8
-syntax on
+syntax off
 filetype on
 filetype indent on
 filetype plugin on
