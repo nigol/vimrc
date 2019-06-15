@@ -47,8 +47,6 @@ map ž ^
 map é 0
 map ¨ \
 map ř %
-" namapuje na ,rf reformat kodu
-map ,rf =}
 
 " namapuje na ,ca kalkulacku pomoci dc
 map ,ca $a,<Esc>:s/,/./g<CR>!1}dc<CR>
