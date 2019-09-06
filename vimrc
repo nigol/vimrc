@@ -34,6 +34,8 @@ set notimeout
 "set spelllang=cs
 set laststatus=0
 set grepprg=grep\ -nH\ $*
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 " namapuje na ,q stisk Esc
 imap ,q <Esc>
