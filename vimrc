@@ -33,6 +33,7 @@ set relativenumber
 set notimeout
 "set spelllang=cs
 set laststatus=0
+set t_Co=256
 set grepprg=grep\ -nH\ $*
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
