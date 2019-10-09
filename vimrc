@@ -10,6 +10,7 @@ set hlsearch
 set nojoinspaces
 set wildmenu
 set smartindent
+set nowrap
 let mapleader=","
 set directory=~/,. 
 set clipboard=unnamed
