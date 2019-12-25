@@ -31,6 +31,7 @@ set expandtab
 set cin
 set backspace=indent,eol,start
 set relativenumber
+set number
 set notimeout
 "set spelllang=cs
 set laststatus=0
