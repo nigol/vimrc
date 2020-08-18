@@ -20,7 +20,6 @@ syntax off
 filetype on
 filetype indent on
 filetype plugin on
-execute pathogen#infect()
 let g:netrw_browse_split=0
 let g:netrw_liststyle=3
 set wrapscan
@@ -35,10 +34,7 @@ set number
 set notimeout
 "set spelllang=cs
 set laststatus=0
-set t_Co=256
 set grepprg=grep\ -nH\ $*
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
 
 " namapuje na ,q stisk Esc
 imap ,q <Esc>
@@ -46,15 +42,8 @@ imap ,q <Esc>
 imap ,cm </><Esc>2F<lywf>f/pF<i
 " namapuje na ,tg vytvoreni tagu ze slova
 imap ,tg <></><Esc>5hdiwp3lpT>i
-" namapuje zacatek a konec radku, \, %
-map č $
-map ž ^
-map é 0
-map ¨ \
-map ř %
 
 " namapuje na ,ca kalkulacku pomoci dc
 map ,ca $a,<Esc>:s/,/./g<CR>!1}dc<CR>
 " prikaz na upravu souboru telefonu pro Hanku
 map ,tele d4f;f;d6f;dWi;<Esc>$xj^
-
