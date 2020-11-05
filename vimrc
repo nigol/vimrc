@@ -29,15 +29,11 @@ set sw=4
 set expandtab
 set cin
 set backspace=indent,eol,start
-set relativenumber
-set number
 set notimeout
 "set spelllang=cs
 set laststatus=0
 set grepprg=grep\ -nH\ $*
 
-" namapuje na ,q stisk Esc
-imap ,q <Esc>
 " namapuje na ,cm uzavreni HTML znacky
 imap ,cm </><Esc>2F<lywf>f/pF<i
 " namapuje na ,tg vytvoreni tagu ze slova
@@ -45,5 +41,3 @@ imap ,tg <></><Esc>5hdiwp3lpT>i
 
 " namapuje na ,ca kalkulacku pomoci dc
 map ,ca $a,<Esc>:s/,/./g<CR>!1}dc<CR>
-" prikaz na upravu souboru telefonu pro Hanku
-map ,tele d4f;f;d6f;dWi;<Esc>$xj^
