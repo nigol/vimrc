@@ -30,6 +30,7 @@ set expandtab
 set cin
 set backspace=indent,eol,start
 set notimeout
+set colorcolumn=80
 "set spelllang=cs
 set laststatus=0
 set grepprg=grep\ -nH\ $*
